@@ -81,7 +81,7 @@ int main()
 		sceCtrlPeekBufferPositive(0, &pad, 1);
 
         if(pad.buttons & SCE_CTRL_START)
-		{
+        {
             paused = 1;
         }	
         if(pad.buttons & SCE_CTRL_CROSS)
